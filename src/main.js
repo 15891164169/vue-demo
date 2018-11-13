@@ -4,6 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import '@/lib/mui/css/mui.min.css'
+import '@/lib/mui/css/icons-extra.css'
+
+// mint-ui
+import { Header } from 'mint-ui'
+Vue.component(Header.name, Header)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
